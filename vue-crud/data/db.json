@@ -1,0 +1,24 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "Pikachu",
+      "picture": "https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2020/06/10214056/Ash-Pikachu.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bulbasaur",
+      "picture": "https://i.pinimg.com/564x/67/47/f3/6747f3a4883060315ce592953b02354d--pokemon-bulbasaur-pokemon-go.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Squirtle",
+      "picture": "https://img.elo7.com.br/product/original/31AE352/squirtle-pokemon-3d.jpg"
+    },
+    {
+      "name": "falameo",
+      "picture": "falameo",
+      "id": 4
+    }
+  ]
+}
