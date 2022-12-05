@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="div-adm">
         <Nav></Nav>
         <div class="left-content">
             <SideBar></SideBar>
@@ -21,5 +21,5 @@ export default {
 </script>
 
 <style>
-
+    
 </style>
