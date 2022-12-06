@@ -1,20 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Main from '../pages/Main.vue'
-import Admin from '../pages/admin/Admin.vue'
-import Pokemons from '../pages/admin/Pokemons.vue'
-import PokemonCreate from '../pages/admin/PokemonCreate.vue'
-import PokemonEdit from '../pages/admin/PokemonEdit.vue'
+import Pokemons from '../pages/Pokemons.vue'
+import PokemonCreate from '../pages/PokemonCreate.vue'
+import PokemonEdit from '../pages/PokemonEdit.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Main',
-    component: Main
-  },
-  {
-    path: '/admin',
-    name: 'Admin',
-    component: Admin,
+    component: Main,
     children: [
       {
         path: 'pokemons',

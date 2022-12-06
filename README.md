@@ -17,5 +17,5 @@ Welcome to my first oficial project! This is a very simple CRUD that simulates t
 - Go to the path where the files are again
 - In the path access the "vue-crud" folder and before the "data" folder. Type this command (json-server --watch db.json) to start the JSON SERVER
 - Open your browser
-- Go to the link "http://localhost:8080/admin/"
+- Go to the link "http://localhost:8080/"
 - Enjoy!

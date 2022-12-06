@@ -40,7 +40,7 @@ export default {
             picture: picture.value
           })
         })
-        await router.push('/admin/pokemons')
+        await router.push('/pokemons')
       }
       return {name, picture, submit}
     }
