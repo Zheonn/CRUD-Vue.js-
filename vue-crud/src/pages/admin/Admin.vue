@@ -1,11 +1,13 @@
 <template>
     <div class="div-adm">
         <Nav></Nav>
-        <div class="left-content">
-            <SideBar></SideBar>
-        </div>
-        <div class="right-content">
-            <router-view/>
+        <div class="content">
+            <div class="left-content">
+                <SideBar></SideBar>
+            </div>
+            <div class="right-content">
+                <router-view/>
+            </div>
         </div>
     </div>
 </template>
