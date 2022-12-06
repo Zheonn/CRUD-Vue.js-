@@ -2,7 +2,7 @@
 
 <h2> Welcome to my first oficial project! <h2>
 
-<h3> This is a very simple CRUD that simulates the POKEDEX, so you can add the pokemons you find with their name and a picture!</h2>
+<p> This is a very simple CRUD that simulates the POKEDEX, so you can add the pokemons you find with their name and a picture!</p>
 
 <h2> How use? <h2>
 
