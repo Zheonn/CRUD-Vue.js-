@@ -3,7 +3,7 @@
       <Nav></Nav>
       <div class="content">
           <div class="left-content">
-              <SideBar></SideBar>
+              <SideBar>a</SideBar>
           </div>
           <div class="right-content">
               <router-view/>
