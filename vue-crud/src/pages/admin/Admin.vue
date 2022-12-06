@@ -9,16 +9,18 @@
                 <router-view/>
             </div>
         </div>
+        <Footer></Footer>
     </div>
 </template>
 
 <script>
 import Nav from '@/components/Nav.vue';
 import SideBar from '@/components/SideBar.vue'
+import Footer from '@/components/Footer.vue';
 
 export default {
     name: 'Admin',
-    components: {Nav, SideBar}
+    components: { Nav, SideBar, Footer }
 }
 </script>
 

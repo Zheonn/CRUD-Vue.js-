@@ -4,6 +4,7 @@
 
 <style>
 @import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 * {
   margin: 0;
@@ -41,20 +42,20 @@ ul {
 }
 
 .left-content {
-  background-color: #f8f9fa;
+  background-color: #5197dd;
   flex: 3;
-  min-height: 90vh;;
+  min-height: 90vh;
 }
 .side-menu {
   margin-top: 20px;
 }
 .side-menu li {
-  border-bottom: solid 1px #cfd3d8;
+  border-bottom: solid 1px #000000;
 }
 .side-menu a {
   display: block;
   padding: 10px 15px;
-  color: #343a40;
+  color: black;
   text-decoration: none;
 }
 .right-content {
@@ -69,6 +70,7 @@ table {
   border-top: 1px solid #dee2e6;
   border-left: 1px solid #dee2e6;
   margin-top: 10px;
+  opacity: 1;
 }
 table thead th {
   vertical-align: bottom;
@@ -132,7 +134,22 @@ input {
 }
 
 .content {
-        display: flex;
-        min-height: 95vh;
-    }
+  display: flex;
+  min-height: 90vh;
+}
+
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  min-width: 100vw;
+  min-height: 5vh;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #e93d3d;
+}
+
+.footer span {
+  color: white;
+  margin-right: 5px;
+}
 </style>
